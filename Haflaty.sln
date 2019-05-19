@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Haflaty.Infrastructure", "H
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Haflaty.Persistence", "Haflaty.Persistence\Haflaty.Persistence.csproj", "{6A7D97C2-3660-4355-B7DE-4707E3D84409}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haflaty.Application", "Haflaty.Application\Haflaty.Application\Haflaty.Application.csproj", "{C28CD012-0415-4605-AB6D-B0CA4A594E99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Haflaty.Application", "Haflaty.Application\Haflaty.Application\Haflaty.Application.csproj", "{C28CD012-0415-4605-AB6D-B0CA4A594E99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haflaty.Application.Tests", "Haflaty.Application.Tests\Haflaty.Application.Tests.csproj", "{4D07E881-A62C-4672-8DAB-16F4B778F839}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Haflaty.Application.Tests", "Haflaty.Application.Tests\Haflaty.Application.Tests.csproj", "{4D07E881-A62C-4672-8DAB-16F4B778F839}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haflaty.Common", "Haflaty.Common\Haflaty.Common.csproj", "{5D4AFD71-26F9-484A-9A39-364BC29CFB07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,18 @@ Global
 		{4D07E881-A62C-4672-8DAB-16F4B778F839}.Release|x64.Build.0 = Release|Any CPU
 		{4D07E881-A62C-4672-8DAB-16F4B778F839}.Release|x86.ActiveCfg = Release|Any CPU
 		{4D07E881-A62C-4672-8DAB-16F4B778F839}.Release|x86.Build.0 = Release|Any CPU
+		{5D4AFD71-26F9-484A-9A39-364BC29CFB07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D4AFD71-26F9-484A-9A39-364BC29CFB07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D4AFD71-26F9-484A-9A39-364BC29CFB07}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5D4AFD71-26F9-484A-9A39-364BC29CFB07}.Debug|x64.Build.0 = Debug|Any CPU
+		{5D4AFD71-26F9-484A-9A39-364BC29CFB07}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5D4AFD71-26F9-484A-9A39-364BC29CFB07}.Debug|x86.Build.0 = Debug|Any CPU
+		{5D4AFD71-26F9-484A-9A39-364BC29CFB07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D4AFD71-26F9-484A-9A39-364BC29CFB07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D4AFD71-26F9-484A-9A39-364BC29CFB07}.Release|x64.ActiveCfg = Release|Any CPU
+		{5D4AFD71-26F9-484A-9A39-364BC29CFB07}.Release|x64.Build.0 = Release|Any CPU
+		{5D4AFD71-26F9-484A-9A39-364BC29CFB07}.Release|x86.ActiveCfg = Release|Any CPU
+		{5D4AFD71-26F9-484A-9A39-364BC29CFB07}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
